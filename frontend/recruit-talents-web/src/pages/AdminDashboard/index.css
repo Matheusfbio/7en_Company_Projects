@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Mangueira';
+    src: url('../src/assets/fontes/Mangueira-Regular.ttf') format('truetype');
+}
+
+*{
+    font-family: 'Mangueira';
+}
+
+.container-user{
+    display: flex;
+    flex-direction: row;
+    background-color: #E5E5E5;
+    min-height: 100vh;
+    max-height: 100%;
+}

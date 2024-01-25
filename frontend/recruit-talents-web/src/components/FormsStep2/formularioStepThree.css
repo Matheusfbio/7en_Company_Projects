@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Mangueira';
+    src: url('../src/assets/fontes/Mangueira-Regular.ttf') format('truetype');
+}
+
+*{
+    font-family: 'Mangueira';
+}
+
+.containerRegistro{
+    margin-top: 70px;
+    max-width: 664px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titleRegistro{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #222222;
+    margin-bottom: 62px;
+}
+
+@media (max-width: 820px) {
+
+}
+
+@media (max-width: 480px) {
+
+    .containerRegistro{
+        margin-top: 0px;
+        padding-bottom: 70px;
+    }
+
+    .titleRegistro{
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        color: #222222;
+        margin-bottom: 62px;
+    }
+
+    img {
+        max-width: 480px;
+        width: 100%;
+    }
+}
+
+/* @media (max-width: 320px) {
+    .containerRegistro{
+        height: 20px;
+    }
+} */

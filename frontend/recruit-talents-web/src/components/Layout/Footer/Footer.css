@@ -1,0 +1,145 @@
+
+@media (min-width:1250px) {
+    .redes-sociais{
+        position: relative;
+        top: 51px;
+    }
+}
+
+@media (max-width:1249px) {
+    .alinhamento-footer{
+        flex-direction: column!important;
+    }
+    .logo-branco{
+        margin-top: 10%;
+        width: 180px !important;
+        height: 108px !important;
+    }
+    .footer-menu{
+        position: relative!important;
+        left: -150px;
+    }
+    .footer-contatos{
+        position: relative!important;
+        left: -68px;
+    }
+    .redes-sociais img {
+       width: 50px!important    ;
+        padding-right: 20px!important;
+        position: relative!important;
+        left: 50px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        
+    }
+    .footer-contatos h2{
+        font-size: 22px!important; 
+        margin-top: 20px;
+    }
+    .footer-contatos li{
+        font-size: 16px!important;
+    }
+    
+    .footer-menu h2{
+        font-size: 22px!important;
+    }
+    .footer-menu li{
+        font-size: 16px!important;
+    }
+    .copyright{ 
+    
+        font-weight: 500 !important; 
+    }
+    .totop{
+        display: none;
+    }
+}
+
+
+
+/*DESKTOP1*/
+footer{
+    width: 100%;
+    background-color:#06857D ;
+    margin-top: -150px;
+   
+
+}
+.alinhamento-footer{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 400px;
+
+}
+.logo-branco{
+    width: 200px;
+    height: 229px;
+}
+.footer-menu{
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 210px;
+    margin-left: 80px;
+    text-decoration: none;
+    
+}
+.footer-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-contatos{
+    height: 210px;
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 80px;
+}
+
+
+
+.redes-sociais img {
+    padding-right: 36px;
+}
+
+
+.hr-footer{ 
+    border: 0.5px solid #09BDB2;
+    width: 100%;
+    position: relative;
+    top: 0px;
+}
+.copyright{ 
+    width: 100%;
+    background-color:#06857D ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Mangueira';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 41px;
+    padding-bottom: 37px;
+}
+
+.totop{
+    position: relative;
+    width: 37px;
+    left: 271px;
+    bottom: 60px;
+    background: #6366F1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+
+}

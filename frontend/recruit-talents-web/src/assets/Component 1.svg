@@ -1,0 +1,24 @@
+<svg width="37" height="36" viewBox="0 0 37 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dd_2214_2114)">
+<rect width="37" height="35.4678" rx="7" fill="#6366F1" shape-rendering="crispEdges"/>
+<path d="M19.3306 17.7192L25.9712 24.3599C26.4302 24.8188 26.4302 25.561 25.9712 26.0151L24.8677 27.1187C24.4087 27.5776 23.6665 27.5776 23.2124 27.1187L18.5005 22.4165L13.7935 27.1235C13.3345 27.5825 12.5923 27.5825 12.1382 27.1235L11.0298 26.02C10.5708 25.561 10.5708 24.8188 11.0298 24.3647L17.6704 17.7241C18.1294 17.2603 18.8716 17.2603 19.3306 17.7192ZM17.6704 8.34424L11.0298 14.9849C10.5708 15.4438 10.5708 16.186 11.0298 16.6401L12.1333 17.7437C12.5923 18.2026 13.3345 18.2026 13.7886 17.7437L18.4956 13.0366L23.2026 17.7437C23.6616 18.2026 24.4038 18.2026 24.8579 17.7437L25.9614 16.6401C26.4204 16.1812 26.4204 15.439 25.9614 14.9849L19.3208 8.34424C18.8716 7.88525 18.1294 7.88525 17.6704 8.34424Z" fill="#09BDB2"/>
+</g>
+<defs>
+<filter id="filter0_dd_2214_2114" x="-4" y="0" width="45" height="43.4678" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2214_2114"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_2214_2114" result="effect2_dropShadow_2214_2114"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_2214_2114" result="shape"/>
+</filter>
+</defs>
+</svg>

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;700&family=Montserrat:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+/* BASIC */
+
+html {
+  background-color: #FFFFFF;
+}
+
+body {
+  font-family: "Mangueira", "Mangueira", sans-serife;
+  
+}
+
+@font-face {
+  font-family: 'Mangueira';
+  src: url('./assets/fontes/Mangueira/Mangueira-Bold.otf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Mangueira';
+  src: url('./assets/fontes/Mangueira/Mangueira-Light.otf');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Mangueira';
+  src: url('./assets/fontes/Mangueira/Mangueira-Medium.otf');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Mangueira';
+  src: url('./assets/fontes/Mangueira/MangueiraAlt-Regular.otf');
+  font-weight: 400;
+}
+
+
+/* STRUCTURE */
+#root{
+  height: 100%;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+.submit{
+  cursor: pointer;
+}
+
+li, ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+button{
+  cursor: pointer;
+  border: none;
+}
+
+textarea:focus, input:focus, select:focus {
+  outline: 0;
+} 
+
+textarea{
+  resize: none;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+    
+}
+

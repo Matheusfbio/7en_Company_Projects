@@ -1,0 +1,1221 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+  
+
+ 
+  /*Desejo Participar*/
+  .container-section1{
+    margin-top: 0 !important;
+}
+.alinhamento-image-conteudo{
+    display: flex;
+    flex-direction: column!important;
+    align-items: center !important;
+    justify-content: flex-start!important
+}
+aside .hero{
+    display: none;
+}
+.alinhamento-text-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#desejo-participar-btn-main{
+    position: relative;
+    left: 35px;
+
+}
+
+/*Quem somos*/
+.alinhamento-image-conteudo{
+    margin-top: 200px;
+}
+.conteudo-quem-somos{
+    margin-top: 200px!important;
+    margin: auto !important;
+}
+.title-quem-somos{
+    right: 30px !important ;
+    position: relative !important;
+    left: 15px !important;
+    
+}
+
+.hero2, .seconf-rectangle , .first-rectangle{
+    display: none;
+}
+/*funciona para mim*/
+.hero3{
+    display: none;
+}
+.title-funciona-para-mim{
+    margin: auto !important; 
+    position: relative;
+    top: -300px;
+    max-width: 520px !important;
+    text-align: left !important;
+    right: 20px !important;
+}
+.conteudo-funciona-para-mim{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0!important;
+}
+article .text-funciona-para-mim{
+    max-width: 520px !important;
+    position: relative;
+    top: -300px;
+}
+.list-funciona-para-mim{
+    position: relative;
+    top: -300px;
+    max-width: 470px !important;
+    position: relative;
+    left: 50px;
+}
+
+/*Como funciona*/
+.title-como-funciona{
+  left: 4rem;
+}
+.conteudo-como-funciona{
+    position: relative;
+    bottom: 250px;
+}
+.alinhamento-image-conteudo-como-funciona{
+    flex-direction: column !important;
+
+}
+
+
+.hero4{
+    width: 252px !important;
+    height: 252px !important;
+    position: relative;
+    bottom: 500px;
+    margin: auto !important;
+}
+article .text-como-funciona{
+   position: relative;
+   top: 200px;
+   max-width: 520px !important;
+   margin: auto !important;
+    
+}
+.btn-saiba-mais{
+    position: relative;
+    top: 250px !important;
+    left: 0px;
+    
+}
+/*tecnologias */
+article .titulo-tecnologias h1{
+  font-size: 26px!important;
+}
+article .titulo-tecnologias{
+  font-size: 26px;
+}
+
+
+/*Parceiros*/
+.cards-parceiros{
+    display: grid !important;
+    grid-template-columns: repeat(4,1fr) !important;
+    scroll-behavior: smooth;
+    padding-left: 35%;
+}
+section .title-parceiros{
+  font-size: 26px;
+}
+
+
+/*Vale a pena*/
+section .title-vale-a-pena{
+  font-size: 26px;
+}
+section .card-mentorados{
+  
+  width: 374px;
+height: 229px;
+
+background: #FFFFFF;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+border-radius: 10.324px;
+ 
+}
+section .foto{
+  width: 18px!important;
+  
+}
+section .nome-mentorado{
+  font-size: 14px!important;
+}
+section .funcao-mentorado{
+  font-size: 10px;
+}
+section .descricao-mentorado{
+  font-size: 8px;
+}
+
+
+/*Junte-se a nos*/
+.junte-se-a-nos{
+    padding: 20px 20px !important;
+    height: 185px !important;
+}
+.alinhamento-junte-se{
+    display: flex !important;
+    flex-direction: column !important;
+    height: 187px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center;
+    
+}
+
+.junte-se-a-nos-btn{
+    
+    font-size: 19.3146px !important;
+    line-height: 30px !important;
+    margin-left: 0px !important;
+    padding: 16px 28px;
+    gap: 10px;
+    border: 1px solid #B7B5B5;
+    border-radius: 15px;
+    margin-top: 25px;
+    color: #FFFFFF;
+    
+}
+.junte-se-a-nos-btn p {
+    width: 163px;
+    height: 31px;
+
+
+}
+.title-junte-se{
+    font-size: 32px !important;
+    line-height: 49px !important;
+}
+.text-junte-se{
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    line-height: 23px !important;
+}
+
+
+  /*Desejo Participar*/
+  .container-section1{
+      margin-top: -200px!important;
+  }
+  .text-main h1{
+      margin: auto !important ;
+      width: 306px !important;
+      height: 184px !important;
+      font-size: 30px !important;
+      line-height: 46px !important;
+  }
+  #desejo-participar-btn-main{
+      margin: auto !important;
+      left: -25px;
+      font-size: 18.921px !important;
+      line-height: 17px !important;
+      padding: 18.921px 23.6512px !important;
+      gap: 4.73px !important;
+      width: 217px !important;
+      height: 54px !important;
+      background: linear-gradient(180deg, #09BDB2 0%, #06857D 100%) !important;
+      border-radius: 8.86921px !important;
+  }
+  /*Quem somos*/
+  .title-quem-somos{
+      margin-top: -100px;
+      font-size: 28px !important;
+      line-height: 34px !important;
+  }
+  .text-box-quem-somos{
+      height: inherit;
+      font-weight: 500 !important;
+      font-size: 16px !important;
+      line-height: 25px !important;
+      max-width: 420px !important;
+      width: 317px;
+      
+  }
+  /*funciona*/
+  
+  .title-funciona-para-mim{
+  
+      padding-top: 150px !important;
+      padding-bottom: 150px !important;
+      margin: auto !important ;
+      width: 270px !important;
+      height: 184px !important;
+      font-size: 30px !important;
+      line-height: 46px !important;
+  }
+  article .text-funciona-para-mim{
+      max-width: 310px !important;
+      font-weight: 500 !important;
+      font-size: 16px !important;
+      line-height: 25px !important;
+  }
+  .list-funciona-para-mim{
+      left: 20px !important;
+      max-width: 270px !important;
+      font-weight: 500 !important;
+      font-size: 16px !important;
+      line-height: 25px !important;
+      padding-bottom: 0 !important;
+  }
+  
+
+
+  /*como funciona*/
+  .title-como-funciona{
+    
+      font-size: 26px !important;
+      line-height: 40px !important;
+      text-align: left !important;
+  }
+  article .text-como-funciona{
+      max-width: 300px!important;
+      font-size: 16px !important;
+      line-height: 25px !important; 
+      font-weight: 500 !important;
+       
+   }
+   .btn-saiba-mais{
+      margin-right: 19rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 29.1034px 45.4741px !important;
+      gap: 7.28px !important;
+      font-size: 27.2845px !important;
+      line-height: 25px !important;
+   }
+
+}
+
+
+/* responsivo 8200*/
+@media (max-width: 820px) {
+  
+
+ 
+  /*Desejo Participar*/
+  .container-section1{
+    margin-top: 0 !important;
+}
+.alinhamento-image-conteudo{
+    display: flex;
+    flex-direction: column!important;
+    align-items: center !important;
+    justify-content: flex-start!important
+}
+aside .hero{
+    display: none;
+}
+.alinhamento-text-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#desejo-participar-btn-main{
+    position: relative;
+    left: 35px;
+
+}
+
+/*Quem somos*/
+.alinhamento-image-conteudo{
+    margin-top: 200px;
+}
+.conteudo-quem-somos{
+    margin-top: 200px!important;
+    margin: auto !important;
+}
+.title-quem-somos{
+    right: 30px !important ;
+    position: relative !important;
+    left: 15px !important;
+    
+}
+
+.hero2, .seconf-rectangle , .first-rectangle{
+    display: none;
+}
+/*funciona para mim*/
+.hero3{
+    display: none;
+}
+.title-funciona-para-mim{
+    margin: auto !important; 
+    position: relative;
+    top: -300px;
+    max-width: 520px !important;
+    text-align: left !important;
+    right: 20px !important;
+}
+.conteudo-funciona-para-mim{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0!important;
+}
+article .text-funciona-para-mim{
+    max-width: 520px !important;
+    position: relative;
+    top: -300px;
+}
+.list-funciona-para-mim{
+    position: relative;
+    top: -300px;
+    max-width: 470px !important;
+    position: relative;
+    left: 50px;
+}
+
+/*Como funciona*/
+.title-como-funciona{
+  left: 4rem;
+}
+.conteudo-como-funciona{
+    position: relative;
+    bottom: 250px;
+}
+.alinhamento-image-conteudo-como-funciona{
+    flex-direction: column !important;
+
+}
+
+
+.hero4{
+    width: 252px !important;
+    height: 252px !important;
+    position: relative;
+    bottom: 500px;
+    margin: auto !important;
+}
+article .text-como-funciona{
+   position: relative;
+   top: 200px;
+   max-width: 520px !important;
+   margin: auto !important;
+    
+}
+.btn-saiba-mais{
+    position: relative;
+    top: 250px !important;
+    left: 0px;
+    
+}
+/*tecnologias */
+article .titulo-tecnologias h1{
+  font-size: 26px!important;
+}
+article .titulo-tecnologias{
+  font-size: 26px;
+}
+
+
+/*Parceiros*/
+.cards-parceiros{
+    display: grid !important;
+    grid-template-columns: repeat(4,1fr) !important;
+    scroll-behavior: smooth;
+    padding-left: 35%;
+}
+section .title-parceiros{
+  font-size: 26px;
+}
+
+
+/*Vale a pena*/
+section .title-vale-a-pena{
+  font-size: 26px;
+}
+section .card-mentorados{
+  
+  width: 374px;
+height: 229px;
+
+background: #FFFFFF;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+border-radius: 10.324px;
+ 
+}
+section .foto{
+  width: 18px!important;
+  
+}
+section .nome-mentorado{
+  font-size: 14px!important;
+}
+section .funcao-mentorado{
+  font-size: 10px;
+}
+section .descricao-mentorado{
+  font-size: 8px;
+}
+
+
+/*Junte-se a nos*/
+.junte-se-a-nos{
+    padding: 20px 20px !important;
+    height: 185px !important;
+}
+.alinhamento-junte-se{
+    display: flex !important;
+    flex-direction: column !important;
+    height: 187px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center;
+    
+}
+
+.junte-se-a-nos-btn{
+    
+    font-size: 19.3146px !important;
+    line-height: 30px !important;
+    margin-left: 0px !important;
+    padding: 16px 28px;
+    gap: 10px;
+    border: 1px solid #B7B5B5;
+    border-radius: 15px;
+    margin-top: 25px;
+    color: #FFFFFF;
+    
+}
+.junte-se-a-nos-btn p {
+    width: 163px;
+    height: 31px;
+
+
+}
+.title-junte-se{
+    font-size: 32px !important;
+    line-height: 49px !important;
+}
+.text-junte-se{
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    line-height: 23px !important;
+}
+
+
+  /*Desejo Participar*/
+  .container-section1{
+      margin-top: -200px!important;
+  }
+  .text-main h1{
+      margin: auto !important ;
+      width: 306px !important;
+      height: 184px !important;
+      font-size: 30px !important;
+      line-height: 46px !important;
+  }
+  #desejo-participar-btn-main{
+      margin: auto !important;
+      left: -25px;
+      font-size: 18.921px !important;
+      line-height: 17px !important;
+      padding: 18.921px 23.6512px !important;
+      gap: 4.73px !important;
+      width: 217px !important;
+      height: 54px !important;
+      background: linear-gradient(180deg, #09BDB2 0%, #06857D 100%) !important;
+      border-radius: 8.86921px !important;
+  }
+  /*Quem somos*/
+  .title-quem-somos{
+      margin-top: -100px;
+      font-size: 28px !important;
+      line-height: 34px !important;
+  }
+  .text-box-quem-somos{
+      height: inherit;
+      font-weight: 500 !important;
+      font-size: 16px !important;
+      line-height: 25px !important;
+      max-width: 420px !important;
+      width: 317px;
+      
+  }
+  /*funciona*/
+  
+  .title-funciona-para-mim{
+  
+      padding-top: 150px !important;
+      padding-bottom: 150px !important;
+      margin: auto !important ;
+      width: 270px !important;
+      height: 184px !important;
+      font-size: 30px !important;
+      line-height: 46px !important;
+  }
+  article .text-funciona-para-mim{
+      max-width: 310px !important;
+      font-weight: 500 !important;
+      font-size: 16px !important;
+      line-height: 25px !important;
+  }
+  .list-funciona-para-mim{
+      left: 20px !important;
+      max-width: 270px !important;
+      font-weight: 500 !important;
+      font-size: 16px !important;
+      line-height: 25px !important;
+      padding-bottom: 0 !important;
+  }
+  
+
+
+  /*como funciona*/
+  .title-como-funciona{
+    
+      font-size: 26px !important;
+      line-height: 40px !important;
+      text-align: left !important;
+  }
+  article .text-como-funciona{
+      max-width: 300px!important;
+      font-size: 16px !important;
+      line-height: 25px !important; 
+      font-weight: 500 !important;
+       
+   }
+   .btn-saiba-mais{
+      margin-right: 19rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 29.1034px 45.4741px !important;
+      gap: 7.28px !important;
+      font-size: 27.2845px !important;
+      line-height: 25px !important;
+   }
+
+}
+
+.container-section1{
+  
+  display: flex;
+  justify-content: center;
+}
+
+
+/*Desejo participar*/
+
+.alinhamento-text-btn{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+.alinhamento-image-conteudo{
+ 
+  width: 100%;
+  height: 100%;
+  padding:4% 0 4% 4%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+  
+  
+}
+.text-main{
+  width: 520px;
+  height: 272px;
+
+}
+#desejo-participar-btn-main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 62px;
+  background: linear-gradient(180deg, #09BDB2 0%, #06857D 100%);
+  border-radius: 15px;
+  width: 405px;
+  height: 93px;
+  text-decoration: none;
+  cursor: pointer;
+}
+aside .hero{
+  width: 522px;
+  height: 522px;
+  padding-left: 10%;
+  
+}
+
+
+/* QUEM SOMOS */
+.conteudo-quem-somos{
+  display: flex;
+  align-content: space-between;
+  flex-direction: column;
+  margin-top: -72px;
+  
+}
+.title-quem-somos{
+  position: relative;
+  right: 85px;
+}
+article .text-box-quem-somos{
+  margin-top: 72px;
+  max-width: 527px;
+  
+}
+.hero2{
+  padding-left: 10%;
+  width: 413px;
+  height: 613px;
+  z-index: 99;
+}
+.first-rectangle{
+  background-color: #06857D;
+  width: 360.95px;
+  height: 101.56px;
+  left: 24px;
+  top: 117px;
+  z-index: -1;
+  position: relative;
+}
+.seconf-rectangle{
+  background-color: #06857D;
+  width: 360.95px;
+  height: 105.56px;
+  left: 66px;
+  top: -119px;
+  z-index: -1;
+  position: relative;
+}
+
+/* FUNCIONA PRA MIM */
+
+.title-funciona-para-mim{
+  max-width:590px;
+  padding-bottom: 57px;
+  padding-top: 90px;
+}
+.conteudo-funciona-para-mim{
+  display: flex;
+  flex-direction: column;
+  padding-left: 76px;
+  
+
+}
+article .text-funciona-para-mim{
+  max-width: 660px;
+  
+}
+.list-funciona-para-mim{
+  max-width: 660px;
+  position: relative;
+  left: 50px;
+  padding-bottom: 100px;
+}
+
+/* COMO FUNCIONA*/
+.containerComoFunciona{
+  
+  display: flex;
+  justify-content: center;
+}
+#como-funciona{
+  padding-top: 50px;
+}
+
+.conteudo-como-funciona{
+  display:flex;
+  flex-direction: column;
+}
+.title-como-funciona{
+  position: relative;
+  bottom:81px ;
+}
+article .text-como-funciona{
+  max-width: 548px;
+  margin-left: 150px;
+  
+}
+.btn-saiba-mais{
+  position: relative;
+  top:80px;
+  right: 60px;
+  width: 270px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 32px 50px;
+  gap: 8px;
+  background: linear-gradient(180deg, #09BDB2 0%, #06857D 100%);
+  border-radius: 15px;
+}
+
+.alinhamento-image-conteudo-como-funciona{
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ 
+  padding-bottom: 4%;
+}
+
+.hero4{
+  width: 651px;
+  height: 651px;
+}
+
+/*TECNOLOGIAS QUE DOMINAMOS*/
+.titulo-tecnologias{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.cards02{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  grid-gap: 10px;
+}
+
+.card-menor{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 361px ;
+  height: 117px;
+  background-color:#F4FFFE ;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  
+}
+.card-menor img {
+  position: relative;
+  right: 70px;
+}
+.card-menor p {
+  text-align: center;
+  position: relative;
+  right: 30px;
+}
+.dotnet{
+  position: relative;
+  right: 30px !important;
+}
+.type{
+  position: relative;
+  right: 60px !important;
+}
+.heroku{
+  position: relative;
+  left: -10px !important;
+}
+
+/* NOSSOS PARCEIROS*/
+
+.title-parceiros{
+  font-family: "Montserrat";
+  font-size: 48px;
+  line-height: 59px;
+  color:#09BDB2 ;
+  margin-top: 42px;
+  display: flex;
+  justify-content: center;
+}
+.alinhamento-parceiros{
+  display: flex;
+  flex-direction: column;
+}
+.cards-parceiros{
+  display: flex;
+ 
+  display: flex;
+  flex-direction: row;
+  margin-top: 102px;
+}
+.card-parceiro{
+  display: flex;
+  justify-content: center;
+  width: 285px;
+  height: 284px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  margin: 10px;
+}
+#parceiros{
+  padding-top: 50px;
+}
+
+/* A REMOTE VALE A PENA ?*/
+
+.vale-a-pena{
+  margin-top: 165px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.alinhamento-vale-a-pena{
+  margin-top: 146px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.container-cards-mentorados{
+  display: grid;
+  
+  grid-template-columns: repeat(2,1fr);
+  
+  grid-gap: 20px;
+
+}
+
+.card-mentorados{
+  
+  display: flex;
+  flex-direction: row;
+  width: 463px;
+  height: 402px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: -4px 10px 40px rgba(0, 0, 0, 0.4);
+  
+}
+.foto{
+  width: 64px;
+  height: 68px;
+  margin: 31px 18px 0 34px;
+}
+.nome-mentorado{
+  position: relative;
+  top: 42px;
+}
+.funcao-mentorado{
+margin-top: 42px;
+  
+}
+.descricao-mentorado{
+  width: 296px;
+  margin-top: 6px;
+}
+
+/* JUNTE-SE A NOS*/
+
+.junte-se-a-nos{
+  margin-top: 215px ;
+  background-color: #6366F1;
+  width: 100%;
+  height: 141px;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+ margin-bottom: 150px;
+}
+.alinhamento-junte-se{
+  display: flex;
+  align-items: center;
+  
+}
+.junte-se-a-nos-btn{
+  margin-left: 410px;
+  padding: 16px 28px;
+  gap: 10px;
+  border: 1px solid #B7B5B5;
+  border-radius: 15px;
+  
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/*fontes*/
+
+
+
+.menu{
+  font-family: 'Mangueira',sans-serif;
+}
+.text-main h1{
+  font-family: 'Mangueira',sans-serif;
+  color: #222222;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 68px;
+  font-weight: bold;
+}
+#desejo-participar-btn-main{
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Mangueira', sans-serif;
+}
+.title-quem-somos{
+  color: #09BDB2;
+  font-family: 'Mangueira';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58.51px; 
+}
+.text-box-quem-somos{
+  font-family: 'Mangueira';
+  color: #222222;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 25.18px;
+}
+
+
+.destaque{
+  color: #09BDB2;
+}
+
+
+/* funciona pra mim*/
+
+.title-funciona-para-mim{
+  color: #09BDB2;
+  font-family: 'Mangueira';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 58.51px; 
+}
+article .text-funciona-para-mim{
+  font-family: 'Mangueira';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 25px;
+  color:#222222;
+}
+.list-funciona-para-mim{
+  font-family: 'Mangueira';
+  font-size: 24px;
+  line-height: 25px;
+}
+/* COMO FUNCIONA*/
+
+.title-como-funciona{
+  font-family: 'Mangueira';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48.76px;
+  color: #09BDB2;
+  margin-left: 15rem;
+
+}
+article .text-como-funciona{
+  font-family: 'Mangueira';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 25px;
+  
+  color: #222222;
+}
+.btn-saiba-mais{
+  font-family: 'Mangueira';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 28px;
+  color: white;
+  margin-left: 20rem;
+}
+
+/*tecnologias*/
+
+.titulo-tecnologias{
+font-family: 'Mangueira';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 59px;
+
+color: #09BDB2;
+}
+
+.title-vale-a-pena{
+font-family: 'Mangueira';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 59px;
+
+color: #09BDB2;
+}
+
+/* vale a pena ?*/
+.nome-mentorado{
+  font-family:'Mangueira';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+.funcao-mentorado{
+  font-family:'Mangueira';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #09BDB2;
+}
+.descricao-mentorado{
+  font-family: 'Mangueira';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+/*JUNTE-SE A NOS*/
+
+.title-junte-se{
+  font-family: 'Mangueira';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: white;
+}
+
+.text-junte-se{
+  font-family: 'Mangueira';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: white;
+}
+.junte-se-a-nos-btn{
+  
+  color: white;
+  text-decoration: none;
+  font-family: 'Mangueira';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+
+
+/* FOOOTER*/
+
+.footer-contatos h2{
+  font-family: 'Mangueira';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.2px;
+}
+.footer-contatos li{
+  font-family: 'Mangueira';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+
+.footer-menu h2{
+  font-family: 'Mangueira';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.2px;
+}
+.footer-menu li{
+  font-family: 'Mangueira';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  
+}
+
+/*BACKground*/
+/* BACKGROUNDS GRADIENTES*/
+
+@media (max-width:1250px) {
+  #background::before, #background2::before, #background3::before{
+     display: none;
+     z-index: -1;
+  }
+  
+}
+#background{
+  position: relative;
+  overflow: hidden;
+  
+}
+#background::before{
+  content: "";
+  position: absolute;
+  left: 70.69%;
+  right: -18.4%;
+  top: 0.41%;
+  bottom: 81%;
+  width: 70%;
+  height:80%;
+  background: rgba(6, 133, 125, 0.15);
+  filter: blur(200px);
+  transform: matrix(0, 1, -1, -0.01, 0, 0);
+}
+
+
+#background2{
+  position: relative;
+  overflow: hidden;
+}
+#background2::before{
+  content: "";
+  position: absolute;
+  left: -46.31%;
+  right: -18.4%;
+  top: -0.59%;
+  bottom: 1%;
+  width: 61%;
+  height: 100%;
+  background: rgba(6, 133, 125, 0.15);
+  filter: blur(200px);
+  transform: matrix(0, 1, -1, -0.01, 0, 0);
+}
+#background3{
+  position: relative;
+  overflow: hidden;
+}
+#background3::before{
+  z-index: -1;
+  content: "";
+  position: absolute;
+  left: -46.31%;
+  right: -18.4%;
+  top: -0.59%;
+  bottom: 1%;
+  width: 50%;
+  height: 100%;
+  background: rgba(6, 133, 125, 0.15);
+  filter: blur(200px);
+  transform: matrix(0, 1, -1, -0.01, 0, 0);
+}
+
+

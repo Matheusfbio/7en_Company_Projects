@@ -1,0 +1,207 @@
+.cards02{
+ 
+ 
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(3,1fr);
+grid-gap: 10px;
+
+
+}
+
+.card-menor{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+width: 361px ;
+height: 117px;
+background-color:#F4FFFE ;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 15px;
+
+}
+.card-menor img {
+position: relative;
+right: 70px;
+}
+.card-menor p {
+text-align: center;
+position: relative;
+right: 30px;
+}
+.dotnet{
+position: relative;
+right: 30px !important;
+}
+.type{
+position: relative;
+right: 60px !important;
+}
+.heroku{
+position: relative;
+left: -10px !important;
+}
+
+
+/* Responsivo */
+
+
+@media (max-width:480px){
+ 
+  
+  .card{
+    padding: 5% 5% 5% 5%;
+   display: grid;
+   grid-gap: 20px;
+   margin-left: 7rem;
+   grid-template-columns: repeat(1,1fr)!important;
+   
+   
+  }
+  
+     
+  
+   .card-menor{
+     display: flex !important;
+     flex-direction: row !important;
+     align-items: center !important;
+     justify-content: center !important;
+     width: 200px !important;
+     height: 90px !important;
+     background-color:#F4FFFE !important;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15) !important;
+     border-radius: 15px !important;
+     
+   }
+
+  .card-menor{
+      display: flex !important;
+      flex-direction: row !important;
+      align-items: center !important;
+      justify-content: center !important;
+      width: 200px !important ;
+      height: 90px !important;
+      background-color:#F4FFFE!important;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15)!important;
+      border-radius: 15px!important;
+  }
+  .card-menor img {
+      position: relative !important;
+      right: 20px !important;
+     
+    }
+    .card-menor p {
+      text-align: center !important;
+      position: relative !important;
+      right: 20px !important;
+    }
+    .dotnet{
+      position: relative !important;
+      right: 30px !important ;
+    }
+    .type{
+      position: relative !important;
+      right: 20px !important;
+    }
+    .heroku{
+      position: relative !important;
+      left: -10px !important;
+    }
+    
+}
+
+
+
+.react-multiple-carousel__arrow::before{
+  color: #09BDB2 !important;
+  z-index: 1 !important;
+  font-size: 35px !important;
+
+  
+}
+.react-multiple-carousel__arrow{
+  background: none !important;
+  z-index: 1 !important;
+}
+.react-multiple-carousel__arrow:hover{
+  background: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Carousel*/
+
+@media (min-width:450px) {
+  .alinhamento-tecnologias{
+      width: 380px !important;
+     
+  }
+  
+}
+@media (max-width:600px) {
+  .alinhamento-tecnologias .titulo-tecnologias{
+      font-size: 26px;
+      line-height: 30px;
+      width: 282px;
+      margin: auto;
+  }
+
+  
+}
+.card{
+  display: grid;
+  grid-template-columns: repeat(3,1fr) ;
+  grid-template-rows: repeat(3,1fr);
+}
+
+.alinhamento-tecnologias{
+  
+  width: 380px;
+  margin: auto;
+}
+.alinhamento-tecnologias .titulo-tecnologias{
+  text-align: left;
+  margin-top: -100px;
+  margin-bottom: 80px;
+}
+.card-tecnologias{
+  margin: auto;
+  width: 271px;
+  height: 90px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 2.41604px 2.41604px rgba(0, 0, 0, 0.15);
+  border-radius: 9.06015px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.alinhamento-tecnologias .card-tecnologias p{
+  font-family: 'Mangueira';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #393939;
+}
+
+
+.alinhamento-tecnologias .card-tecnologias img{
+  width: 75px;
+  height: 55px;
+}
+

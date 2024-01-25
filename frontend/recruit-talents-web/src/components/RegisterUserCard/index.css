@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'Mangueira';
+    src: url('../src/assets/fontes/Mangueira-Regular.ttf') format('truetype');
+}
+
+*{
+    font-family: 'Mangueira';
+}
+.container-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cards {
+   
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding: 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-right: 40px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    width: 901px;
+
+
+    /* Gray/800 */
+
+    color: #333F51;
+    margin-top: 23px;
+}
+
+.name-icon-container {
+    display: flex;
+    gap: 25px;
+}
+
+.card-nome {
+
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.card-idade {
+
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.card-telefone {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.card-tec {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    width: 150px;
+    color: #09BDB2;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+::-webkit-scrollbar {
+    border-radius: 5px;
+    color: #09BDB2;
+    height: 8px;
+    width: 1px;
+    border: 1px solid #d5d5d5;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #09BDB2;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0eaea3;
+}
+
+
+.card-atuacao {
+    color: #09BDB2;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.foto-perfil-card {
+    width: 40px;
+    height: 40px;
+}
+
+.button-background-usuarios {
+    background-color: transparent;
+   
+}
+.card-button{
+    display: none;
+}
+@media(max-width:820px){
+    .button-background-usuarios{
+        
+        position: absolute;
+       
+        display: flex;
+        margin-top: 100px;
+        margin-right: 28rem;
+        width: 760px;   
+        height: 96px;
+        margin-left: 8rem;
+      
+    }
+    .card-idade{
+        display: none;
+    }
+    .card-atuacao{
+        display: none;
+    }
+    .card-telefone{
+        display: none;
+    }
+    .card-button{   
+        color: #FFFFFF;  
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 5px;
+        gap: 4.46px;   
+        left: 69.07%;
+        right: 9.6%;
+        top: 34.77%;
+        bottom: 62.53%;
+        background: linear-gradient(180deg, #06857D 0%, #09BDB2 100%);
+        box-shadow: 0px 0.445581px 0.891163px rgba(105, 81, 255, 0.05);
+        border-radius: 10px;
+    }
+   
+
+}
+@media(max-width:480px){
+    .button-background-usuarios{
+        position: fixed;
+        display: flex;
+        margin-top: 100px;
+       
+        width: 600px;   
+        height: 96px;
+      
+    }
+   
+    .card-idade{
+        display: none;
+    }
+    .card-atuacao{
+        display: none;
+    }
+    .card-telefone{
+        display: none;
+    }
+    .card-button{   
+        color: #FFFFFF;  
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 5px;
+        gap: 4.46px;   
+        left: 69.07%;
+        right: 9.6%;
+        top: 34.77%;
+        bottom: 62.53%;
+        background: linear-gradient(180deg, #06857D 0%, #09BDB2 100%);
+        box-shadow: 0px 0.445581px 0.891163px rgba(105, 81, 255, 0.05);
+        border-radius: 10px;
+    }
+   
+
+}

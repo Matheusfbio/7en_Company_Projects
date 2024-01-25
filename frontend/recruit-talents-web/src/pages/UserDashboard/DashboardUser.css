@@ -1,0 +1,32 @@
+.containerUsuarioLogado{
+    background-color: #F1F1F1;
+    display: flex;
+}
+
+@font-face {
+    font-family: 'Mangueira';
+    src: url('../src/assets/fontes/Mangueira-Regular.ttf') format('truetype');
+}
+
+*{
+    font-family: 'Mangueira';
+}
+
+.container-conteudo-inicial{
+    height: 100vh;
+    width: 100%;
+    background: #F1F1F1;
+    padding: 40px;
+}
+
+.conteudo-inicial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo-conteudo-inicial{
+    text-align: center;
+    margin-bottom: 60px;
+}
