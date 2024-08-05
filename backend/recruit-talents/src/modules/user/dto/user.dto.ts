@@ -3,7 +3,7 @@ import { Exclude, Expose, Type } from 'class-transformer';
 import { CommonEntityDto } from 'src/common/dto';
 import { Resume } from 'src/modules/resume/entities/resume.entity';
 import { UserRoleDto } from 'src/modules/user-role/dto/user-role.dto';
-import { UserSkillDto } from 'src/modules/user-skill/dto/user-skill.dto';
+import { UserSkillDto } from 'src/modules/user-skill/dto/user-skill.dto';j
 import { UserRole } from '../../user-role/entities/user-role.entity';
 import { UserSkill } from '../../user-skill/entities/user-skill.entity';
 import { UserInterface } from '../interfaces/user.interface';
